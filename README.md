@@ -71,9 +71,11 @@ Install my-project with npm
 | Color          | Hex                                                                |
 | -------------- | ------------------------------------------------------------------ |
 | Dark Gray      | ![#333333](https://via.placeholder.com/10/333333?text=+) `#333333` |
-| Yellow         | ![#f9b707](https://via.placeholder.com/10/f9b707?text=+) `#f9b707` |
 | White          | ![#FFFFFF](https://via.placeholder.com/10/FFFFFF?text=+) `#FFFFFF` |
 | Black          | ![#000000](https://via.placeholder.com/10/000000?text=+) `#000000` |
+| Light Gray     | ![#9F9F9F](https://via.placeholder.com/10/9F9F9F?text=+) `#9F9F9F` |
+| Deep Blue      | ![#1611C4](https://via.placeholder.com/10/1611C4?text=+) `#1611C4` |
+
 
 
 
