@@ -1,0 +1,210 @@
+@import url('https://fonts.cdnfonts.com/css/satoshi');
+
+.createCompanyForm {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-family: 'Satoshi';
+}
+
+.createCompanyForm .company-description-part,
+.createCompanyForm .legal-entities-part,
+.createCompanyForm .legal-details-part,
+.createCompanyForm .bank-details-part {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 20px;
+  font-family: 'Satoshi';
+
+
+}
+
+
+.company-description-part,
+.legal-entities-part,
+.legal-details-part,
+.bank-details-part {
+  width: 100%;
+  gap: 32px;
+  height: auto;
+}
+
+.company-description-part p,
+.legal-entities-part p,
+.legal-details-part p,
+.bank-details-part p,
+.entity-container p {
+  color: #0B0B0B;
+  text-align: left;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.entities-add-part {
+  display: flex;
+  align-items: center;
+  /* Center the items vertically */
+  padding: 10px;
+  gap: 20px;
+}
+
+.entities-add-part p {
+  margin: 0;
+  /* Remove default margin from <p> */
+  color: #0B0B0B;
+  text-align: left;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+
+}
+
+.add-entity-button {
+  width: 161px;
+  height: 45px;
+  border-radius: 4px;
+  padding: 12px 24px;
+  /* Use proper padding shorthand */
+  background-color: #1611C4;
+  color: white;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20.8px;
+  border: none;
+  cursor: pointer;
+  font-family: 'Satoshi';
+
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 15px;
+}
+
+.form-row div {
+  flex: 1;
+}
+
+.createCompanyForm input,
+.createCompanyForm select {
+  width: 100%;
+  height: 41px;
+  border-radius: 8px;
+  border: 1px solid #9F9F9F;
+  font-size: 16px;
+  /* Ensure font size consistency */
+  font-family: 'Satoshi';
+  /* Ensure font family consistency */
+}
+
+.createCompanyForm input:focus,
+.createCompanyForm select:focus {
+  border-color: #292929;
+  outline: none;
+  /* Removes the default browser outline */
+}
+
+.createCompanyForm label {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20.8px;
+  color: #292929;
+  margin-bottom: 8px;
+}
+
+.submit-button {
+  width: 100%;
+  height: 51px;
+  border-radius: 8px;
+  border: none;
+  background-color: #1611C4;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+.submit-button:active {
+  transform: scale(0.98);
+}
+
+/* Bank Details Section */
+.bank-details-part {
+  margin-top: 20px;
+}
+
+.bank-details-part .bank-details-entry {
+  margin-bottom: 20px;
+}
+
+.add-bank-detail-button {
+  background-color: #1611C4;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.remove-bank-detail-button,
+.remove-entity-button {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+
+}
+
+.remove-entity-button {
+  margin-top: 10px;
+}
+
+.remove-bank-detail-button:hover {
+  background-color: #cc0000;
+}
+
+.remove-entity-button:hover {
+  background-color: #cc0000;
+}
+
+.add-bank-detail-button:hover,
+.add-entity-button:hover {
+  background-color: #0056b3;
+}
+
+.bank-details-part .form-row {
+  margin-bottom: 10px;
+}
+
+.bank-details-part .form-row div {
+  margin-bottom: 10px;
+}
+
+.bank-details-part .form-row input,
+.bank-details-part .form-row select {
+  border: 1px solid #ccc;
+}
+
+.create-company-headline {
+  height: 35px;
+  font-weight: 700;
+  line-height: 35.2px;
+  color: #0B0B0B;
+  font-family: 'Satoshi';
+}

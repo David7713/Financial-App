@@ -1,0 +1,98 @@
+@import url('https://fonts.cdnfonts.com/css/satoshi');
+
+
+.clients-table table {
+    font-family: 'Satoshi';
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+    table-layout: fixed;
+    box-shadow: 0px 2px 4px 0px #29292914;
+
+    
+}
+
+.clients-table th,
+.clients-table td {
+    padding: 8px 20px;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.clients-table th { 
+    height: 52px;
+    background-color: #E9E9ED;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19.6px;
+    color: #464646;
+
+}
+
+.clients-table td { /* body */
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    height: 55px;
+    line-height: 20.8px;
+    color: #0B0B0B;
+    border-bottom: 1px solid #E6E6E6;
+    border: 0px, 0px, 1px, 0px ;
+}
+
+.clients-table tr:last-child td {
+    border-bottom: none;
+}
+
+.clients-table .expiring-soon {
+    background-color: #FFF5EC;
+}
+
+.clients-table .expired {
+    color: #E50000;
+}
+
+.clients-table .signed {
+    color: #238F3B;
+}
+
+.clients-table th:nth-child(1),
+.clients-table td:nth-child(1) { width: 25%; }
+.clients-table th:nth-child(2),
+.clients-table td:nth-child(2) { width: 15%; }
+.clients-table th:nth-child(3),
+.clients-table td:nth-child(3) { width: 15%; }
+.clients-table th:nth-child(4),
+.clients-table td:nth-child(4) { width: 12%; }
+.clients-table th:nth-child(5),
+.clients-table td:nth-child(5) { width: 10%; }
+.clients-table th:nth-child(6),
+.clients-table td:nth-child(6) { width: 10%; }
+.clients-table th:nth-child(7),
+.clients-table td:nth-child(7) { width: 7%; }
+.clients-table th:nth-child(8),
+.clients-table td:nth-child(8) { width: 10%; }
+.clients-table td:nth-child(9) { width: 15%; }
+
+
+
+.delete-button {
+    background-color: #E50000;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 6px 12px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.delete-button:hover {
+    background-color: #c00000;
+}
+

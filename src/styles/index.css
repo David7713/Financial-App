@@ -1,0 +1,18 @@
+@import url('https://fonts.cdnfonts.com/css/satoshi');
+html, body {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+body {
+    background: #F8F9FC;
+}
+
+html, body {
+    font-family: 'Satoshi', sans-serif !important;
+  }

@@ -1,0 +1,35 @@
+@import url('https://fonts.cdnfonts.com/css/satoshi');
+
+.cash-flow-page-sub-header {
+    display: flex;
+    align-items: center;
+}
+
+.sub-header-back-button {
+    text-decoration: none;
+    color: #292929;
+    font-family: 'Satoshi', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20.8px;
+    display: flex;
+    align-items: center;
+}
+
+.sub-header-arrow-right {
+    display: flex;
+    align-items: center;
+    margin: 0 12px;
+}
+
+.sub-header-cash-flow-name {
+    font-family: 'Satoshi', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20.8px;
+    color: #909090;
+    display: flex;
+    align-items: center;
+}

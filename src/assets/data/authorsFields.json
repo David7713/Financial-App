@@ -1,0 +1,22 @@
+[
+  {
+    "title" : "Name",
+    "key" : "name",
+    "type" : "text"
+  },
+  {
+    "title" : "Surname",
+    "key" : "surname",
+    "type" : "text"
+  },
+  {
+    "title" : "Amount Paid",
+    "key" : "amountPaid",
+    "type" : "float"
+  },
+  {
+    "title" : "Amount Pending",
+    "key" : "amountPending",
+    "type" : "float"
+  }
+]

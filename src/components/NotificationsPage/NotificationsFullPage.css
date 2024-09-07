@@ -1,0 +1,94 @@
+@import url('https://fonts.cdnfonts.com/css/satoshi');
+
+
+.notifications-container {
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    width: 100%;
+    height: auto;
+    margin-bottom: 0;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 4px rgba(41, 41, 41, 0.08);
+    border-radius: 4px;
+}
+
+.notification-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 15px 30px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.notification-block:last-child {
+    border-bottom: none !important;
+}
+
+.notification-content-full {
+    margin-right: 20px;
+}
+
+.notification-content-full p {
+    margin: 0 0 10px 0;
+    font-size: 14px;
+    color: #292929;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.notification-link {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    color: #1510BA;
+}
+
+.notification-link svg {
+    width: 12px;
+    height: 12px;
+    margin-left: 5px;
+    display: inline-block;
+    vertical-align: middle;
+    color: #1510BA;
+}
+
+.notification-right {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.notification-time {
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    color: #0B0B0B;
+    white-space: nowrap;
+    margin-right: 20px;
+}
+
+.close-notification-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.close-notification-button svg {
+    width: 17px;
+    height: 17px;
+}
+
+.notifications-container > p {
+    text-align: center;
+    color: #777;
+    font-size: 16px;
+    padding: 20px 0;
+}

@@ -1,0 +1,77 @@
+@import url('https://fonts.cdnfonts.com/css/satoshi');
+
+
+.contracts-table table {
+    font-family: 'Satoshi';
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.contracts-table th,
+.contracts-table td {
+    padding: 8px;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.contracts-table th { /* header */
+    height: 35px;
+    background-color: #E9E9ED;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 140%;
+    color: #464646;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.contracts-table td { /* body */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    height: 61px;
+    line-height: 20px;
+    color: #0B0B0B;
+    border-bottom: 1px solid #E6E6E6;
+}
+
+.contracts-table tr:last-child td {
+    border-bottom: none;
+}
+
+.contracts-table .expiring-soon {
+    background-color: #FFF5EC;
+}
+
+.contracts-table .expired {
+    color: #E50000;
+}
+
+.contracts-table .signed {
+    color: #238F3B;
+}
+
+.contracts-table th:nth-child(1),
+.contracts-table td:nth-child(1) { width: 25%; }
+.contracts-table th:nth-child(2),
+.contracts-table td:nth-child(2) { width: 15%; }
+.contracts-table th:nth-child(3),
+.contracts-table td:nth-child(3) { width: 15%; }
+.contracts-table th:nth-child(4),
+.contracts-table td:nth-child(4) { width: 12%; }
+.contracts-table th:nth-child(5),
+.contracts-table td:nth-child(5) { width: 10%; }
+.contracts-table th:nth-child(6),
+.contracts-table td:nth-child(6) { width: 10%; }
+.contracts-table th:nth-child(7),
+.contracts-table td:nth-child(7) { width: 7%; }
+.contracts-table th:nth-child(8),
+.contracts-table td:nth-child(8) { width: 10%; }
+.contracts-table th:nth-child(9),
+.contracts-table td:nth-child(9) { width: 15%; }

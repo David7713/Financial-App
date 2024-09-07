@@ -1,0 +1,165 @@
+@import url('https://fonts.cdnfonts.com/css/satoshi');
+
+.cash-flow-management {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(151, 71, 255, 0.08);
+    margin-top: 10px;
+    font-family: 'Satoshi', sans-serif;
+}
+
+.delete-cashflow-button {
+    display: flex;
+    align-items: center;
+    width: 177px;
+    height: 45px;
+    border-radius: 4px;
+    border: 1px solid red;
+    padding: 12px 20px;
+    background-color: white;
+    font-size: 16px;
+    line-height: 20.8px;
+    color: #E50000;
+    cursor: pointer;
+    font-weight: 400;
+    font-family: 'Satoshi', sans-serif;
+}
+
+.delete-cashflow-button:hover {
+    border-color: red;
+}
+
+.delete-cashflow-button img {
+    margin-right: 8px;
+    height: 20px;
+    width: auto;
+}
+
+.cash-flow-details-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.cash-flow-information-part {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px 0px #29292914;
+    padding: 20px;
+    width: 100%;
+    gap: 32px;
+}
+
+.cash-flow-information-part p {
+    color: #0B0B0B;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 15px;
+}
+
+.form-row div {
+    flex: 1;
+}
+
+.cash-flow-details-form input,
+.cash-flow-details-form select {
+    width: 100%;
+    height: 41px;
+    border-radius: 8px;
+    border: 1px solid #9F9F9F;
+    font-family: 'Satoshi', sans-serif;
+    font-size: 16px; /* Ensure consistent font size */
+    line-height: 20.8px; /* Ensure consistent line height */
+}
+
+.cash-flow-details-form input:focus,
+.cash-flow-details-form select:focus {
+    border-color: #292929;
+    outline: none;
+}
+
+.cash-flow-details-form label {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20.8px;
+    color: #292929;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.save-button,
+.cancel-button,
+.cashflow-submit-button {
+    width: 150px;
+    height: 45px;
+    border-radius: 4px;
+    padding: 12px 20px;
+    border: 1px solid;
+    font-size: 16px;
+    line-height: 20.8px;
+    font-weight: 400;
+    cursor: pointer;
+    font-family: 'Satoshi', sans-serif;
+}
+
+.save-button {
+    background-color: #1611C4;
+    color: white;
+    border-color: #1611C4;
+}
+
+.cancel-button {
+    background-color: white;
+    color: #292929;
+    border-color: #292929;
+}
+
+.cashflow-submit-button {
+    background-color: white;
+    color: #1510BA;
+    border-color: #1510BA;
+    margin-left: 5px;
+}
+
+.save-button:hover,
+.cancel-button:hover,
+.cashflow-submit-button:hover {
+    transform: scale(0.98);
+}
+
+.form-buttons {
+    margin-top: 20px;
+}
+
+.submit-button {
+    width: 100%;
+    height: 51px;
+    border-radius: 8px;
+    border: none;
+    background-color: #1611C4;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+.submit-button:active {
+    transform: scale(0.98);
+}

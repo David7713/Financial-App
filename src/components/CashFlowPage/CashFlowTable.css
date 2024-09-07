@@ -1,0 +1,58 @@
+/* CashFlowTable.css */
+@import url('https://fonts.cdnfonts.com/css/satoshi');
+
+
+.cash-flow-table-container table {
+    font-family: 'Satoshi';
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+    table-layout: fixed;
+    box-shadow: 0px 2px 4px 0px #29292914;
+}
+
+.cash-flow-table-container th,
+.cash-flow-table-container td {
+    padding: 8px 20px;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.cash-flow-table-container th { 
+    height: 52px;
+    background-color: #E9E9ED;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19.6px;
+    color: #464646;
+}
+
+.cash-flow-table-container td {
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    height: 55px;
+    line-height: 20.8px;
+    color: #0B0B0B;
+    border-bottom: 1px solid #E6E6E6;
+}
+
+.cash-flow-table-container tr:last-child td {
+    border-bottom: none;
+}
+
+.cash-flow-table-container th:nth-child(1),
+.cash-flow-table-container td:nth-child(1) { width: 25%; }
+.cash-flow-table-container th:nth-child(2),
+.cash-flow-table-container td:nth-child(2) { width: 25%; }
+.cash-flow-table-container th:nth-child(3),
+.cash-flow-table-container td:nth-child(3) { width: 20%; }
+.cash-flow-table-container th:nth-child(4),
+.cash-flow-table-container td:nth-child(4) { width: 15%; }
+.cash-flow-table-container th:nth-child(5),
+.cash-flow-table-container td:nth-child(5) { width: 15%; }

@@ -1,0 +1,194 @@
+@import url('https://fonts.cdnfonts.com/css/satoshi');
+
+.sidebar-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 32px 48px;
+    gap: 10px;
+    width: 100%;
+    height: 132px;
+    box-sizing: border-box;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.sidebar-logo {
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-bottom: 10px;
+}
+
+.sidebar-logo img {
+    width: 68px;
+    height: 68px;
+}
+
+.sidebar-panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: -185px;
+    padding: 0;
+    width: 100%;
+    height: calc(100vh - 132px);
+    box-sizing: border-box;
+    overflow-y: hidden;
+}
+
+.links-block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    height: 70%;
+    padding: 0 0 30px;
+    font-family: 'Satoshi', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    box-sizing: border-box;
+}
+
+.contracts-text,
+.reporting-text,
+.payments-text,
+.authors-text,
+.companyList-text,
+.services-text,
+.clients-text, /* Added class for Clients */
+.companies-text, /* Added class for Companies */
+.cashflow-text { /* Added class for Cash Flow Text */
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    line-height: 23px;
+    width: auto;
+    height: 23px;
+    text-align: right;
+    box-sizing: border-box;
+}
+
+.contracts-icon,
+.reporting-icon,
+.payments-icon,
+.authors-icon,
+.companyList-icon,
+.services-icon,
+.clients-icon, /* Added class for Clients Icon */
+.companies-icon, /* Added class for Companies Icon */
+.settings-icon,
+.logout-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.payments-link,
+.reporting-link,
+.contracts-link,
+.authors-link,
+.companyList-link,
+.services-link,
+.clients-link, /* Added class for Clients Link */
+.companies-link, /* Added class for Companies Link */
+.cashflow-link { /* Added class for Cash Flow Link */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration: none;
+    gap: 10px;
+    width: 100%;
+    height: 72px;
+    padding: 20px 40px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.settings-block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 0 auto;
+    margin-right: 0;
+    margin-top: auto;
+    margin-bottom: 10px;
+    padding: 0 0 40px;
+    width: 100%;
+    height: 120px;
+    font-family: 'Satoshi', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    box-sizing: border-box;
+}
+
+.settings-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    gap: 12px;
+    width: 100%;
+    padding: 24px 48px;
+    box-sizing: border-box;
+}
+
+.settings-text {
+    font-size: 18px;
+    line-height: 23px;
+    text-align: right;
+    width: auto;
+    height: 23px;
+    box-sizing: border-box;
+}
+
+.logout-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    gap: 12px;
+    width: 100%;
+    padding: 24px 48px;
+    box-sizing: border-box;
+}
+
+.logout-text {
+    font-size: 18px;
+    line-height: 23px;
+    width: auto;
+    height: 23px;
+    text-align: right;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    box-sizing: border-box;
+}
+
+.separator {
+    border: 0.1px solid #E6E6E6;
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+
+
+.active-link {
+    background-color: #F5F5F5;
+}
+
+.active-link .clients-text,
+.active-link .companyList-text,
+.active-link .cashflow-text,
+.active-link .services-text {
+    color: #1611C4;
+}
+
+.active-link svg path {
+    fill: #1611C4;
+}

@@ -1,0 +1,104 @@
+@import url('https://fonts.cdnfonts.com/css/satoshi');
+
+
+.attachments-container {
+    width: 300px;
+    background-color: #FFFFFF;
+    border: 1px solid #E6E6E6;
+    border-radius: 8px;
+    padding: 20px;
+    font-family: 'Satoshi';
+}
+
+.attachments-container h2 {
+    font-family: 'Satoshi';
+    font-style: normal;
+    align-items: left;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: -5px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.attachments-tabs {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.reports-tab,
+.invoices-tab {
+    padding: 8px 16px;
+    border: none;
+    background: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: #646464;
+    cursor: pointer;
+}
+
+.reports-tab.active,
+.invoices-tab.active {
+    color: #0047FF;
+    border-bottom: 2px solid #0047FF;
+}
+
+.attachments-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.attachment-item {
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+    font-size: 14px;
+    border-bottom: 1px solid #E6E6E6;
+    margin-left: 10px;
+}
+
+.attachment-item:last-child {
+    border-bottom: none;
+}
+
+.attachment-item svg {
+    margin-right: 8px;
+    color: #646464;
+}
+
+.history-page-download-button {
+    margin-left: auto;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #646464;
+}
+
+.history-page-export-button-block {
+    display: flex;
+    justify-content: center;
+}
+
+.history-page-export-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+    margin-top: 16px;
+    background-color: #FFFFFF;
+    border: 1px solid #292929;
+    border-radius: 4px;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-size: 15px;
+    font-weight: 400;
+    color: #292929;
+    cursor: pointer;
+}
+
+.history-page-export-button svg {
+    color: #292929;
+    margin-right: 8px;
+}

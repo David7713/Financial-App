@@ -1,0 +1,17 @@
+[
+    {
+        "title" : "Company Name",
+        "key" : "publisher",
+        "type" : "text"
+    },
+    {
+        "title" : "Amount Paid",
+        "key" : "amountPaid",
+        "type" : "float"
+    },
+    {
+        "title" : "Amount Pending",
+        "key" : "amountPending",
+        "type" : "float"
+    }
+]

@@ -1,0 +1,607 @@
+[
+  {
+    "title" : "Name",
+    "key" : "name",
+    "type" : "text"
+  },
+  {
+    "title" : "Author",
+    "key" : "author",
+    "type" : "text"
+  },
+  {
+    "title" : "Original Title",
+    "key" : "originalTitle",
+    "type" : "text"
+  },
+  {
+    "title" : "Proprietor",
+    "key" : "proprietor",
+    "type" : "text"
+  },
+  {
+    "title" : "International Working Title",
+    "key" : "internationalWorkingTitle",
+    "type" : "text"
+  },
+  {
+    "title" : "Franchise/Project Name",
+    "key" : "franchiseName",
+    "type" : "text"
+  },
+  {
+    "title" : "Assignee",
+    "key" : "assignee",
+    "type" : "text"
+  },
+  {
+    "title" : "Publisher",
+    "key" : "publisher",
+    "type" : "text"
+  },
+  {
+    "title" : "Specify",
+    "key" : "specify",
+    "type" : "text"
+  },
+  {
+    "title" : "Limited Printrun",
+    "key" : "limitedPrintrun",
+    "type" : "number"
+  },
+  {
+    "title" : "Contract Retail Price",
+    "key" : "contractRetailPrice",
+    "type" : "number"
+  },
+  {
+    "title" : "Reporting Periods in Months",
+    "key" : "reportingPeriodsInMonths",
+    "type" : "number"
+  },
+  {
+    "title" : "Hard Cover %",
+    "key" : "hardcoverPercent",
+    "type" : "number"
+  },
+  {
+    "title" : "Hard Cover Retail Price",
+    "key" : "hardcoverRetailPrice",
+    "type" : "float"
+  },
+  {
+    "title" : "Quality Trade Paperback %",
+    "key" : "qualityTradePaperbackPercent",
+    "type" : "number"
+  },
+  {
+    "title" : "Quality Trade Paperback Retail Price",
+    "key" : "qualityTradePaperbackRetailPrice",
+    "type" : "float"
+  },
+  {
+    "title" : "Regular Paper %",
+    "key" : "regularPaperPercent",
+    "type" : "number"
+  },
+  {
+    "title" : "Regular Paper Retail Price",
+    "key" : "regularPaperRetailPrice",
+    "type" : "float"
+  },
+  {
+    "title" : "Mass Market Paperback %",
+    "key" : "massMarketPaperbackPercent",
+    "type" : "number"
+  },
+  {
+    "title" : "Mass Market Paperback Retail Price",
+    "key" : "massMarketPaperbackRetailPrice",
+    "type" : "float"
+  },
+  {
+    "title" : "Ebook %",
+    "key" : "ebookPercent",
+    "type" : "number"
+  },
+  {
+    "title" : "Ebook Retail Price",
+    "key" : "ebookRetailPrice",
+    "type" : "float"
+  },
+  {
+    "title" : "Audio Rights %",
+    "key" : "audioRightsPercent",
+    "type" : "number"
+  },
+  {
+    "title" : "Audio Rights Retail Price",
+    "key" : "audioRightsRetailPrice",
+    "type" : "float"
+  },
+  {
+    "title" : "Audio Physical %",
+    "key" : "audioPhysicalPercent",
+    "type" : "number"
+  },
+  {
+    "title" : "Audio Physical Retail Price",
+    "key" : "audioPhysicalRetailPrice",
+    "type" : "float"
+  },
+  {
+    "title" : "Download %",
+    "key" : "downloadPercent",
+    "type" : "number"
+  },
+  {
+    "title" : "Download Retail Price",
+    "key" : "downloadRetailPrice",
+    "type" : "float"
+  },
+  {
+    "title" : "Streaming %",
+    "key" : "streamingPercent",
+    "type" : "number"
+  },
+  {
+    "title" : "Streaming Retail Price",
+    "key" : "streamingRetailPrice",
+    "type" : "float"
+  },
+  {
+    "title" : "Advanced Payments Sum",
+    "key" : "advancedPaymentsSum",
+    "type" : "float"
+  },
+  {
+    "title" : "Signed at",
+    "key" : "signedAt",
+    "type" : "date"
+  },
+  {
+    "title" : "Expiry Date",
+    "key" : "expiryDate",
+    "type" : "date"
+  },
+  {
+    "title" : "Publication Date",
+    "key" : "publicationDate",
+    "type" : "date"
+  },
+  {
+    "title" : "Published Date of Publication",
+    "key" : "publishedDateOfPublication",
+    "type" : "date"
+  },
+  {
+    "title": "Date of Reversion",
+    "key" : "dateOfReversion",
+    "type" : "date"
+  },
+  {
+    "title" : "Status",
+    "key" : "status",
+    "type" : "select",
+    "options" : [
+      {
+        "value" : "signed",
+        "label" : "Signed"
+      },
+      {
+        "value" : "expired",
+        "label" : "Expired"
+      }
+    ]
+  },
+  {
+    "title" : "Original Language",
+    "key" : "originalLanguage",
+    "type" : "select",
+    "options" : [
+      {
+        "value" : "english",
+        "label" : "English"
+      },
+      {
+        "value" : "spanish",
+        "label" : "Spanish"
+      },
+      {
+        "value" : "italian",
+        "label" : "Italian"
+      },
+      {
+        "value" : "japanese",
+        "label" : "Japanese"
+      },
+      {
+        "value" : "german",
+        "label" : "German"
+      }
+    ]
+  },
+  {
+    "title" : "Language of the Translation",
+    "key" : "languageOfTheTranslation",
+    "type" : "select",
+    "options" : [
+      {
+        "value" : "english",
+        "label" : "English"
+      },
+      {
+        "value" : "spanish",
+        "label" : "Spanish"
+      },
+      {
+        "value" : "italian",
+        "label" : "Italian"
+      },
+      {
+        "value" : "japanese",
+        "label" : "Japanese"
+      },
+      {
+        "value" : "german",
+        "label" : "German"
+      }
+    ]
+  },
+  {
+    "title" : "Printrun",
+    "key" : "printrun",
+    "type" : "select",
+    "options" : [
+      {
+        "value" : "limited",
+        "label" : "Limited"
+      },
+      {
+        "value" : "unlimited",
+        "label" : "Unlimited"
+      }
+    ]
+  },
+  {
+    "title" : "Hard Cover Currency",
+    "key" : "hardcoverCurrency",
+    "type" : "select",
+    "options" : [
+      {
+        "value" : "USD",
+        "label" : "USD"
+      },
+      {
+        "value" : "EUR",
+        "label" : "EUR"
+      }
+    ]
+  },
+  {
+    "title" : "Quality Trade Paperback Currency",
+    "key" : "qualityTradePaperbackCurrency",
+    "type" : "select",
+    "options" : [
+      {
+        "value" : "USD",
+        "label" : "USD"
+      },
+      {
+        "value" : "EUR",
+        "label" : "EUR"
+      }
+    ]
+  },
+  {
+    "title" : "Regular Paper Currency",
+    "key" : "regularPaperCurrency",
+    "type" : "select",
+    "options" : [
+      {
+        "value" : "USD",
+        "label" : "USD"
+      },
+      {
+        "value" : "EUR",
+        "label" : "EUR"
+      }
+    ]
+  },
+  {
+    "title" : "Mass Market Paperback Currency",
+    "key" : "massMarketPaperbackCurrency",
+    "type" : "select",
+    "options" : [
+      {
+        "value" : "USD",
+        "label" : "USD"
+      },
+      {
+        "value" : "EUR",
+        "label" : "EUR"
+      }
+    ]
+  },
+  {
+    "title" : "Ebook Currency",
+    "key" : "ebookCurrency",
+    "type" : "select",
+    "options" : [
+      {
+        "value" : "USD",
+        "label" : "USD"
+      },
+      {
+        "value" : "EUR",
+        "label" : "EUR"
+      }
+    ]
+  },
+  {
+    "title" : "Audio Rights Currency",
+    "key" : "audioRightsCurrency",
+    "type" : "select",
+    "options" : [
+      {
+        "value" : "USD",
+        "label" : "USD"
+      },
+      {
+        "value" : "EUR",
+        "label" : "EUR"
+      }
+    ]
+  },
+  {
+    "title" : "Download Currency",
+    "key" : "downloadCurrency",
+    "type" : "select",
+    "options" : [
+      {
+        "value" : "USD",
+        "label" : "USD"
+      },
+      {
+        "value" : "EUR",
+        "label" : "EUR"
+      }
+    ]
+  },
+  {
+    "title" : "Streaming Currency",
+    "key" : "streamingCurrency",
+    "type" : "select",
+    "options" : [
+      {
+        "value" : "USD",
+        "label" : "USD"
+      },
+      {
+        "value" : "EUR",
+        "label" : "EUR"
+      }
+    ]
+  },
+    {
+    "title" : "Audio Physical Currency",
+    "key" : "audioPhysicalCurrency",
+    "type" : "select",
+    "options" : [
+      {
+        "value" : "USD",
+        "label" : "USD"
+      },
+      {
+        "value" : "EUR",
+        "label" : "EUR"
+      }
+    ]
+  },
+  {
+    "title" : "Advanced Payment Currency",
+    "key" : "advancedPaymentsCurrency",
+    "type" : "select",
+    "options" : [
+      {
+        "value" : "USD",
+        "label" : "Dollar (USD)"
+      },
+      {
+        "value" : "EUR",
+        "label" : "Euro (EUR)"
+      }
+    ]
+  },
+  {
+    "title" : "Flat Free Currency",
+    "key" : "flatFreeCurrency",
+    "type" : "select",
+    "options" : [
+      {
+        "value" : "USD",
+        "label" : "Dollar (USD)"
+      },
+      {
+        "value" : "EUR",
+        "label" : "Euro (EUR)"
+      }
+    ]
+  },
+  {
+    "title" : "Hard Cover",
+    "key" : "hardcover",
+    "type" : "select",
+    "options" : [
+      {
+        "value" : "true",
+        "label" : "Yes"
+      },
+      {
+        "value" : "false",
+        "label" : "No"
+      }
+    ]
+  },
+  {
+    "title" : "Quality Trade Paperback",
+    "key" : "qualityTradePaperback",
+    "type" : "select",
+    "options" : [
+      {
+        "value" : "true",
+        "label" : "Yes"
+      },
+      {
+        "value" : "false",
+        "label" : "No"
+      }
+    ]
+  },
+  {
+    "title" : "Regular Paper",
+    "key" : "regularPaper",
+    "type" : "select",
+    "options" : [
+      {
+        "value" : "true",
+        "label" : "Yes"
+      },
+      {
+        "value" : "false",
+        "label" : "No"
+      }
+    ]
+  },
+  {
+    "title" : "Mass Market Paperback",
+    "key" : "massMarketPaperback",
+    "type" : "select",
+    "options" : [
+      {
+        "value" : "true",
+        "label" : "Yes"
+      },
+      {
+        "value" : "false",
+        "label" : "No"
+      }
+    ]
+  },
+  {
+    "title" : "Ebook",
+    "key" : "ebook",
+    "type" : "select",
+    "options" : [
+      {
+        "value" : "true",
+        "label" : "Yes"
+      },
+      {
+        "value" : "false",
+        "label" : "No"
+      }
+    ]
+  },
+  {
+    "title" : "Audio Rights",
+    "key" : "audioRights",
+    "type" : "select",
+    "options" : [
+      {
+        "value" : "true",
+        "label" : "Yes"
+      },
+      {
+        "value" : "false",
+        "label" : "No"
+      }
+    ]
+  },
+  {
+    "title" : "Audio Physical",
+    "key" : "audioPhysical",
+    "type" : "select",
+    "options" : [
+      {
+        "value" : "true",
+        "label" : "Yes"
+      },
+      {
+        "value" : "false",
+        "label" : "No"
+      }
+    ]
+  },
+  {
+    "title" : "Download",
+    "key" : "download",
+    "type" : "select",
+    "options" : [
+      {
+        "value" : "true",
+        "label" : "Yes"
+      },
+      {
+        "value" : "false",
+        "label" : "No"
+      }
+    ]
+  },
+  {
+    "title" : "Streaming",
+    "key" : "streaming",
+    "type" : "select",
+    "options" : [
+      {
+        "value" : "true",
+        "label" : "Yes"
+      },
+      {
+        "value" : "false",
+        "label" : "No"
+      }
+    ]
+  },
+  {
+    "title" : "Advance Payments",
+    "key" : "advancePayments",
+    "type" : "select",
+    "options" : [
+      {
+        "value" : "true",
+        "label" : "Yes"
+      },
+      {
+        "value" : "false",
+        "label" : "No"
+      }
+    ]
+  },
+  {
+    "title" : "Flat Free",
+    "key" : "flatFree",
+    "type" : "select",
+    "options" : [
+      {
+        "value" : "true",
+        "label" : "Yes"
+      },
+      {
+        "value" : "false",
+        "label" : "No"
+      }
+    ]
+  },
+  {
+    "title" : "Cancellation Reason",
+    "key" : "cancellationReason",
+    "type" : "select",
+    "options" : [
+      {
+        "value" : "other",
+        "label" : "Other"
+      }
+    ]
+  }
+]

@@ -1,0 +1,41 @@
+.contracts {
+    width: 146px;
+    height: 35px;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 35px;
+    text-align: right;
+    color: #0B0B0B;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-left: -24px;
+}
+
+.add-contract {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    width: 161px;
+    height: 45px;
+    background: #1611C4;
+    border-radius: 4px;
+    margin-right: -24px;
+}
+
+.add-contract text {
+    width: 95px;
+    height: 21px;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}

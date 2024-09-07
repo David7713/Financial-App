@@ -1,0 +1,30 @@
+[
+    {
+        "title" : "id",
+        "key" : "companyId",
+        "type" : "text"
+    },
+    {
+        "title" : "title",
+        "key" : "title",
+        "type" : "text"
+    },
+    {
+        "title" : "inn",
+        "key" : "Inn",
+        "type" : "text"
+    }
+    ,
+    {
+        "title" : "owner name",
+        "key" : "ownerName",
+        "type" : "text"
+    }
+    ,
+    {
+        "title" : "address",
+        "key" : "address",
+        "type" : "text"
+    }
+    
+]

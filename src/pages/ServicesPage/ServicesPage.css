@@ -1,0 +1,41 @@
+/* ServicesPage.css */
+
+.services-headline-part {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.services-headline-part .services {
+    font-family: 'Satoshi', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 35px;
+    text-align: right;
+    color: #0B0B0B;
+    /* Additional spacing adjustments */
+}
+
+.services-headline-part button {
+    /* Add styles for your button here */
+    /* Example */
+    padding: 10px 20px;
+}
+
+.add-service-button {
+    width: 161px;
+    height: 45px;
+    border-radius: 4px;
+    padding: 12px, 20px, 12px, 24px;
+    gap: 8px;
+    background-color: #1611C4;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.8px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Satoshi';
+}

@@ -1,0 +1,53 @@
+@import url('https://fonts.cdnfonts.com/css/satoshi');
+
+
+.companyList-page {
+   
+}
+
+.companyList-table table {
+    font-family: 'Satoshi';
+    border-collapse: collapse;
+    width: 100%;
+    box-shadow: 0px 2px 4px rgba(41, 41, 41, 0.08) !important;
+    border-radius: 4px !important;
+    background: #FFFFFF;
+
+ 
+}
+
+.companyList-table th,
+.companyList-table td {
+    padding: 8px 20px;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.companyList-table th { /* header */
+    height: 52px;
+    background-color: #E9E9ED;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19.6px;
+    color: #464646;
+}
+
+.companyList-table td { /* body */
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    height: 55px;
+    line-height: 20.8px;
+    color: #0B0B0B;
+    border-bottom: 1px solid #E6E6E6;
+    border: 0px, 0px, 1px, 0px ;
+}
+
+.companyList-table tr:last-child td {
+    border-bottom: none;
+}

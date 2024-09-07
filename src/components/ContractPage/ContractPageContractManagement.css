@@ -1,0 +1,115 @@
+@import url('https://fonts.cdnfonts.com/css/satoshi');
+
+
+.contract-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+}
+
+.contract-info h2 {
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 120%;
+    margin: 0;
+    text-align: right;
+    color: #0B0B0B;
+}
+
+.status {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 12px 5px;
+    gap: 5px;
+    background-color: #E3EEE9;
+    border-radius: 20px;
+    border: 1px solid #238F3B;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 140%;
+    color: #238F3B;
+    margin-right: auto;
+    margin-left: 18px;
+    margin-bottom: 29px;
+}
+
+.contract-number {
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    color: #646464;
+    margin: 0;
+}
+
+.contract-number-black {
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    color: #0B0B0B;
+    margin: 0;
+}
+
+.contract-actions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+}
+
+.contract-actions button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 12px 20px 12px 20px;
+    gap: 5px;
+    border: 1px solid;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.prolong-contract-button {
+    background: #FFFFFF;
+    border-color: #1510BA;
+    color: #1510BA;
+}
+
+.cancel-contract-button {
+    background-color: #ffffff;
+    border-color: #dadce0;
+    color: #3c4043;
+}
+
+.delete-contract-button {
+    background-color: #ffffff;
+    border-color: #dadce0;
+    color: #ea4335;
+}
+
+.contract-actions button svg {
+    margin-bottom: 2px;
+    width: 12px;
+    height: 12px;
+}
+
+.contract-actions button:hover {
+    background-color: rgba(66, 133, 244, 0.04);
+}

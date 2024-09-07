@@ -1,0 +1,44 @@
+@import url('https://fonts.cdnfonts.com/css/satoshi');
+
+
+.sub-header-back-button {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.sub-header-back-button p {
+    display: flex;
+    align-items: center;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #292929;
+    margin-right: 5px;
+}
+
+.sub-header-arrow-right {
+    width: auto;
+    height: auto;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    margin-left: -5px;
+}
+
+.sub-header-arrow-right svg {
+    width: 15px;
+    height: 15px;
+}
+
+.sub-header-contract-name {
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #909090;
+}
