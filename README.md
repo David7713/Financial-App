@@ -2,9 +2,8 @@
 # Financial CRM App
 Financial CRM is a comprehensive financial management application designed specifically for financial companies. It helps streamline financial accounting, planning, and reporting, providing tools for effective management and oversight of financial activities.
 
-  ## Construction Main
-![App Screenshot](https://github.com/David7713/Construction-website/blob/main/src/assets/screenshots/MainScreenshot.jpg?raw=true)
-
+  ##  Financial App
+![App Screenshot](https://github.com/David7713/Financial-App/blob/master/src/assets/Screenshots/MainScreenshot.jpg?raw=true)
 
 ## Features
 
@@ -60,8 +59,8 @@ Financial CRM is a comprehensive financial management application designed speci
 Install my-project with npm
 
 ```bash
-  git clone https://github.com/David7713/Construction-website.git
-  cd project-portal
+ git clone https://github.com/David7713/Financial-App.git
+  cd financial-app
   npm install
   npm run dev
 
@@ -79,18 +78,18 @@ Install my-project with npm
 
 
 ## Screenshots
-   ## Home
-![App Screenshot](https://github.com/David7713/Construction-website/blob/main/src/assets/screenshots/Screenshot_1.png?raw=true)
+  ## Login
+![App Screenshot](https://github.com/David7713/Financial-App/blob/master/src/assets/Screenshots/Screenshot_1.png?raw=true)
 
-   ## About
-![App Screenshot](https://github.com/David7713/Construction-website/blob/main/src/assets/screenshots/Screenshot_2.png?raw=true)
+   ## Clients
+![App Screenshot](https://github.com/David7713/Financial-App/blob/master/src/assets/Screenshots/Screenshot_2.png?raw=true)
 
-   ## Contact
-![App Screenshot](https://github.com/David7713/Construction-website/blob/main/src/assets/screenshots/Screenshot_3.png?raw=true)
+   ## Add Company
+![App Screenshot](https://github.com/David7713/Financial-App/blob/master/src/assets/Screenshots/Screenshot_3.png?raw=true)
 
-   ## Footer
+   ## Delete Company
   
-![App Screenshot](https://github.com/David7713/Construction-website/blob/main/src/assets/screenshots/Screenshot_4.png?raw=true)
+![App Screenshot](https://github.com/David7713/Financial-App/blob/master/src/assets/Screenshots/Screenshot_4.png?raw=true)
 
 
 
